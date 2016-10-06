@@ -1,0 +1,38 @@
+{
+    "name": "臉書論壇FS",
+    "version": "1.0.0",
+    "database": [
+        
+        {
+            "displayName" : "滚球",
+            "name": "sportsbook",
+            "remote": "http://127.0.0.1:5984/"
+        },
+        {
+            "displayName" : "卡西诺",
+            "name": "Casino",
+            "remote": "http://127.0.0.1:5984/"
+        },
+        {   
+            "displayName" : "測試專用",
+            "name": "fsQAT",
+            "remote": "http://127.0.0.1:5984/"
+        }
+    ]
+    ,
+    "mapview": {
+        "defaultLatitude": "24.16069389",
+        "defaultLongitude": "120.63721061",
+        "defaultZoom": "10",
+        "mapid": "tobiasrotter.je28c1b0",
+        "accesstoken": "pk.eyJ1IjoidG9iaWFzcm90dGVyIiwiYSI6Imw1SlZIRWsifQ.uJ8yi7o4YKFAuFDgSVcCTw"
+    },
+    "login": {
+        "fingerprintjs": true,
+        "simplelogin": true,
+        "hellojs": {
+            "fiware": false ,
+            "facebook": false
+        }
+    }
+}
